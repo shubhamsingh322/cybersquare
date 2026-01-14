@@ -23,16 +23,16 @@ Fonts
 }
 
 @font-face {
-    font-family: dmsemibold;
-    src: url("../fonts/DM/DMSans-SemiBold.ttf") format("truetype");
-    font-weight: 600;
+    font-family: dmmedium;
+    src: url("../fonts/DM/DMSans-Medium.ttf") format("truetype");
+    font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
-    font-family: dmmedium;
-    src: url("../fonts/DM/DMSans-Medium.ttf") format("truetype");
-    font-weight: 500;
+    font-family: dmsemibold;
+    src: url("../fonts/DM/DMSans-SemiBold.ttf") format("truetype");
+    font-weight: 600;
     font-display: swap;
 }
 
@@ -62,7 +62,6 @@ Fonts
     src: url("../fonts/sceptica/Sceptica-Black.otf") format("opentype");
     font-display: swap;
 }
-
 
 @media (max-width:767px){
     .desktop-hidden{
