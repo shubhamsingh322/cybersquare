@@ -3,49 +3,66 @@ Fonts
 --------------------------------*/
 @font-face {
     font-family: dmregular;
-    src: url(/fonts/DM/DMSans-Regular.ttf);
+    src: url("../Fonts/DM/DMSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
 }
 
 @font-face {
     font-family: dmlight;
-    src: url(/fonts/DM/DMSans-Light.ttf);
+    src: url("../Fonts/DM/DMSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
 }
 
 @font-face {
     font-family: dmbold;
-    src: url(/fonts/DM/DMSans-Bold.ttf);
+    src: url("../Fonts/DM/DMSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
 }
 
 @font-face {
     font-family: dmsemibold;
-    src: url(/fonts/DM/DMSans-SemiBold.ttf);
+    src: url("../Fonts/DM/DMSans-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
 }
 
 @font-face {
     font-family: dmmedium;
-    src: url(/fonts/DM/DMSans-Medium.ttf);
+    src: url("../Fonts/DM/DMSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
 }
 
 @font-face {
     font-family: dmextrabold;
-    src: url(/fonts/DM/DMSans-ExtraBold.ttf);
+    src: url("../Fonts/DM/DMSans-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-display: swap;
 }
 
+/* Sceptica */
 
 @font-face {
     font-family: scepmedium;
-    src: url(/fonts/sceptica/Sceptica-Medium.otf);
+    src: url("../Fonts/sceptica/Sceptica-Medium.otf") format("opentype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: sceplight;
-    src: url(/fonts/sceptica/Sceptica-Light.otf);
+    src: url("../Fonts/sceptica/Sceptica-Light.otf") format("opentype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: scepblack;
-    src: url(/fonts/sceptica/Sceptica-Black.otf);
+    src: url("../Fonts/sceptica/Sceptica-Black.otf") format("opentype");
+    font-display: swap;
 }
+
 
 @media (max-width:767px){
     .desktop-hidden{
